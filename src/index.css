@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900;1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+.container-1{
+    height: 65vh;
+    object-fit: "cover";
+}
+
+.half-image{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.slider-sec{
+    height: 100%;
+}
+.half-image{
+    height: 100%;
+    
+}
+.half-image-upper{
+    clip-path: polygon(0% 0%, 100% 0, 100% 66%, 51% 100%, 0 67%);
+}
+.container2{
+    height: 80vh;
+}
+.about-img{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%, 20% 60%, 40% 50%, 60% 40%, 80% 50%, 100% 60%, 100% 100%, 0% 100%);
+    
+}
+.slider-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .slider-container {
+    scrollbar-width: none; 
+  }
+
+  .res-div{
+    background-image: url("./assets/rev-bg.jpg");
+    background-size: cover;
+  }
+  .conf-page{
+    height: 100vh;
+  }
